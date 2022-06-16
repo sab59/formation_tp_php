@@ -1,0 +1,61 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fac3f2;
+}
+
+/*navbar*/
+.navbar{
+    background-color: #fac3f2;
+    padding-right: 10px;
+}
+h1{
+    font-size: 2em;
+    color: #FA09D3;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container a{
+    text-decoration: none;
+    color: #FA09D3;
+    font-size: 1.5em;
+}
+.container a :hover{
+    background-color: #d82dbfb1;
+}
+
+/*accueil*/
+.title{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    background-color: #d82dbfb1;
+    border-radius: 50px;
+}
+
+.img{
+    display: flex;
+}
+
+/*footer*/
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.contact{
+    margin-right: 10px;
+}
