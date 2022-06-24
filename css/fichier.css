@@ -1,0 +1,141 @@
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+/*Fielset*/
+
+.field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.modif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.connect{
+    width: 50%;
+}
+legend{
+    text-align: center;
+}
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+label{
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: 80%;
+    margin: 1% 10%;
+
+}
+
+/*Bouton*/
+article{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.lien{
+    font-size: x-large;
+    color: #f3abf3;
+    text-decoration: none;
+    cursor: pointer;
+}
+.com{
+    width: 20%;
+
+}
+button{
+    width: 99%;
+    margin: 1% 20%;
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e85c44;
+}
+
+/*Recette*/
+.recette1, .recette2, .recette3, .recette4, .recette5, .recette6{
+    height: 350px;
+}
+.ing{
+    font-size: 1.3em;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.recette{
+    font-size: 1.3em;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    font-size: 1.8em;
+}
+.img-recette-r{
+    border-radius: 50%;
+    float: right;
+}
+.img-recette-l{
+    border-radius: 50%;
+    float: left;
+}
+@media screen and (max-width: 1030px) {
+
+    /*recette*/
+    .recette1, .recette2, .recette3, .recette4, .recette5, .recette6{
+        height: 450px;
+    }
+    .ing{
+        font-size: 1em;
+        height: 200px;
+    }
+    .recette{
+        font-size: 1.1em;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    /*recette*/
+    .ing{
+        font-size: 0.7em;
+        height: 200px;
+    }
+    .recette{
+        font-size: 0.9em;
+        height: 200px;
+    }
+    aside{
+        width: 125%;
+    }
+    /*bouton*/
+    .lien{
+        font-size: 0.9em;
+    }
+    .com{
+        width: 100%;
+    }
+    article{
+        margin: 15%;
+    }
+}

@@ -1,0 +1,192 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fac3f2;
+}
+
+/*Bouton*/
+#inscription{
+    display: flex;
+    justify-content: center;
+    margin: 250px 0px;
+}
+button{
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e85c44;
+}
+.lien{
+    font-size: x-large;
+    color: #f3abf3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: #fac3f2;
+    padding-right: 10px;
+}
+h1{
+    font-size: 1.8em;
+    color: #FA09D3;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container a{
+    text-decoration: none;
+    color: #FA09D3;
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+/*Accueil*/
+.title{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    background-color: #d82dbfb1;
+    border-radius: 10px;
+    color: white;
+}
+.gallerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+.gallerie_card {
+    width: 75%;
+    max-width: 1245px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    justify-content: inherit;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 261px;
+    height: 319px;
+    box-shadow: 5px 5px 8px 2px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 2%;
+}
+.card_img1 {
+    height: 100%;
+    width: 100%;
+  }
+#img1{
+    height: 261px;
+}
+  .card_img2 {
+    height: 100%;
+    width: 100%;
+  }
+#img2{
+    height: 280px;
+    width: 185px;
+}
+  .card_img3 {
+    height: 100%;
+    width: 100%;
+  }
+#img3{
+    height: 188px;
+}
+.card_img4 {
+    height: 100%;
+    width: 100%;
+  }
+#img4{
+    height: 206px;
+}
+.card_img5 {
+    height: 100%;
+    width: 100%;
+}
+#img5{
+    height: 277px;
+}
+.card_img6 {
+    height: 100%;
+    width: 100%;
+}
+#img6{
+    height: 266px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: #FA09D3;
+}
+.avis{
+    margin: 20px 0px;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.label{
+    overflow: auto;
+}
+
+/*Recette*/
+h4{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    font-size: 1.8em;
+}
+.ing{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.recette{
+    font-size: 1.3em;
+    margin-bottom: 125px;
+}
+.img-recette-r{
+    border-radius: 50%;
+    float: right;
+}
+.img-recette-l{
+    border-radius: 50%;
+    float: left;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+/*footer*/
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.contact{
+    margin-right: 10px;
+}
